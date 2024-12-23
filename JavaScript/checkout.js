@@ -6,9 +6,9 @@ window.addEventListener("load", function(){
     let total = localStorage.getItem('total price');
     if (total) {
         total = parseFloat(total);
-        totalPrice.innerHTML = `$${total.toFixed(2)}`;
+        totalPrice.innerHTML = `₹${total.toFixed(2)}`;
     } else {
-        totalPrice.innerHTML = `$0.00`;
+        totalPrice.innerHTML = `₹0.00`;
     }
 })
 
